@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth!important;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'TT Commons';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+:root {
+    --padding-space: 16px;
+}
+
+a {
+    color: var(--text-link-color)!important;
+    text-decoration: none;
+    transition: 0.1s;
+}
+a:hover {
+    color: var(--text-color)!important;
+    text-decoration: underline;
+} 
+
+.app-layout {
+    width: 100%;
+    max-width: 1600px;
+    margin: 32px auto;
+    padding: 16px 5%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.app-icon {
+    display: block;
+    max-width: 192px;
+    width: 25%;
+    margin: 16px auto 32px auto!important;
+}
+  
+.app-name {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 48px;
+}
+
+.app-paragraph {
+    max-width: 480px;
+    width: 90%;
+    margin: 32px auto;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 20px;
+    color: #fff;
+    background: #0077ff;
+}
+
+button:active {
+    outline: none!important;
+}

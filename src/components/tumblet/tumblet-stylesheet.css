@@ -1,0 +1,70 @@
+.tumblet {
+    display: inline-block;
+    width: fit-content;
+    user-select: none;
+    --blue: #0077ff;
+    --blued: #0061cf;
+    --blueb: #0026cf;
+}
+.tumblet .tumblet-wrapper {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+
+}
+.tumblet .tumblet-item {
+    width: fit-content;
+    height: 44px;
+    line-height: 40px;
+    box-sizing: border-box;
+
+    padding: 0 8px;
+    margin: 8px 4px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    transition: transform 2s;
+    border-radius: 8px;
+    border: 2px solid var(--blueb);
+    background-size: 100% 200%;
+    background-position: 50% 75%;
+    transform: translateY(2px);
+}
+.tumblet .tumblet-item.tumblet-selected {
+    cursor: pointer;
+    transform: translateY(0px);
+    box-shadow: 0 2px 0 var(--blueb);
+}
+
+.tumblet .tumblet-item.tumblet-selected:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+
+}
+.tumblet .tumblet-item.svg {
+    display: flex;
+    align-items: center;
+}
+
+.tumblet .tumblet-item.svg svg {
+    display: inline;
+    transform: translateY(-1px);
+}
+
+body.light .app-layout .tumblet svg {
+    fill: var(--dark);
+}
+body.dark .app-layout .tumblet svg {
+    fill: var(--light);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body.auto .app-layout .tumblet svg {
+        fill: var(--light);
+    }    
+}
+@media screen and (prefers-color-scheme: light) {
+    body.auto .app-layout .tumblet svg {
+        fill: var(--light);
+    }    
+}

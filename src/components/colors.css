@@ -1,0 +1,33 @@
+:root {
+    --black: rgb(0,0,0);
+    --dark: rgb(15,15,15);
+    --gray: rgb(128,128,128);
+    --light: rgba(240,240,240);
+    --white: rgb(255,255,255);
+}
+
+body.dark {
+    background: var(--dark);
+    color: var(--white);
+}
+
+body.light {
+    background: var(--white);
+    color: var(--dark);
+}
+body.light .app-name {
+    font-weight: 600;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body.auto {
+        background: var(--dark);
+        color: var(--white);
+    }
+}
+@media screen and (prefers-color-scheme: light) {
+    body.auto {
+        background: var(--white);
+        color: var(--dark);
+    }
+}
