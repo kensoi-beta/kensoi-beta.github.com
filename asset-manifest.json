@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc149ab5.chunk.css",
+    "main.js": "/static/js/main.bc8b9ff8.chunk.js",
+    "main.js.map": "/static/js/main.bc8b9ff8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a6f7ffde.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a6f7ffde.js.map",
+    "static/js/2.dbd1ae62.chunk.js": "/static/js/2.dbd1ae62.chunk.js",
+    "static/js/2.dbd1ae62.chunk.js.map": "/static/js/2.dbd1ae62.chunk.js.map",
+    "static/js/3.15a1bd5d.chunk.js": "/static/js/3.15a1bd5d.chunk.js",
+    "static/js/3.15a1bd5d.chunk.js.map": "/static/js/3.15a1bd5d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cc149ab5.chunk.css.map": "/static/css/main.cc149ab5.chunk.css.map",
+    "static/js/2.dbd1ae62.chunk.js.LICENSE.txt": "/static/js/2.dbd1ae62.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/TTCommons-ThinItalic.ce7708f0.eot",
+    "static/media/roundico.8cae22dd.svg": "/static/media/roundico.8cae22dd.svg",
+    "static/media/tomato.ff7d9726.png": "/static/media/tomato.ff7d9726.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6f7ffde.js",
+    "static/js/2.dbd1ae62.chunk.js",
+    "static/css/main.cc149ab5.chunk.css",
+    "static/js/main.bc8b9ff8.chunk.js"
+  ]
+}
