@@ -3,7 +3,14 @@ import Footer from './components/footer/Footer'
 import "./components/app.css"
 import "./components/colors.css"
 import {useEffect, useState} from 'react'
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import {ExamplePage} from './pages/Example'
+import {TumbletTest} from './pages/TumbletTest'
+import {NotFound} from './pages/NotFound'
 
 
 function App() {
@@ -47,7 +54,13 @@ function App() {
   return (
     <div>
       <Header toolkit = {toolkit}/>
-      <ExamplePage toolkit = {toolkit}/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" element={<NotFound />} />
+          <Route exact path="/" element={<ExamplePage />} />
+          <Route exact path="/tumblet/" element={<TumbletTest />} />
+        </Routes>
+      </BrowserRouter>
       <Footer toolkit = {toolkit}/>
     </div>
   );

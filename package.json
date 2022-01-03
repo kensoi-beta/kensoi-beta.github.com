@@ -1,6 +1,6 @@
 {
-  "name": "roundico-app-template",
-  "homepage": "https://kensoi.github.io/roundico-app-template/",
+  "name": "kensoi-beta",
+  "homepage": "https://kensoi-beta.github.io/",
   "version": "0.3.2",
   "private": true,
   "dependencies": {
